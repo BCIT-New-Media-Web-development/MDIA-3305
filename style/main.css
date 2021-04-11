@@ -6,3 +6,14 @@ a {
 	text-decoration: none;
 	color: black;
 }
+
+/*
+|------------------------------------------
+|  Header Content
+|------------------------------------------
+*/@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-collapse {
+		justify-content: flex-end;
+	}
+}
+
