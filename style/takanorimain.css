@@ -12,6 +12,10 @@ a {
 |  Header Content
 |------------------------------------------
 */
+.navbar {
+	padding: .5rem 1rem;
+}
+
 @media (min-width: 992px) {
 	.navbar-expand-lg .navbar-collapse {
 		justify-content: flex-end;
