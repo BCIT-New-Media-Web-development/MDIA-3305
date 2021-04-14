@@ -1,23 +1,183 @@
-/*********************
-header
-**********************/
-header {
-    margin-bottom: 70px;
-}
-
-.navbar-nav {
-    margin-left: auto;
-}
-
-.navbar-nav li {
-    margin-right:3rem;
-}
-
-
 
 
 /*********************
-delete
+gallery
 **********************/
+.bg-center {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+} 
+
+img {
+	width: 100%;
+}
+
+.gallery-section {
+    background-color: #98CAD8;
+
+}
+
+.gallery-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.head {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.content {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.gallery-container .content {
+    width: 60%;
+    margin: 20px auto;
+}
+
+
+.image-slider .cell {
+	height:75vw;
+    max-height: 400px;
+	width: 100%;
+    max-width: 600px;
+    margin-left: 10px;
+	
+}
+
+.image-slider .cell-1 {
+	background-image: url(../images/pennyimages/resort17.jpg);
+}
+
+.image-slider .cell-2 {
+	background-image: url(../images/pennyimages/resort20.jpg);
+}
+.image-slider .cell-3 {
+	background-image: url(../images/pennyimages/resort25.jpg);
+}
+
+.image-slider .cell-4 {
+	background-image: url(../images/pennyimages/resort24.jpg);
+}
+
+.image-slider .cell-5 {
+	background-image: url(../images/pennyimages/resort26.jpg);
+
+}
+
+.image-slider .cell-6 {
+	background-image: url(../images/pennyimages/resort27.jpg);
+
+}
+
+.btn-position {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #6181A2;
+    position: absolute;
+    bottom: 179px;
+    left: 102px;
+}
+
+/*********************
+contact 
+**********************/
+
+.contact .container {
+    width: 80%;
+    margin: 50px auto;
+}
+.col-6 {
+    position: relative;
+}
+
+.left-col-1 {
+    background-image: url(../images/pennyimages/where-we.jpg);
+    height:75vw;
+    max-height: 450px;
+	width: 50%;
+}
+
+.right-col {
+    border:1px solid #707070 ;
+}
+
+.get-there {
+    background-image: url(../images/pennyimages/get-there.jpg);
+}
+
+.col-center {
+    text-align: center;
+    padding: 0 25px;
+    position: absolute;               /* 2 */
+    top: 50%;                         /* 3 */
+    transform: translate(0, -50%) }
+    
+}
+
+.btn-blue {
+    color: #181b3b;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+.col-6 .head {
+    font-weight: 400;
+    margin-top: 35px!important;
+}
+
+/*********************
+footer 
+**********************/
+footer {
+    text-align: center;
+    background-color: #98CAD8;
+    padding: 50px 0 30px 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-icons img {
+    height: 20px;
+    width: auto;
+}
+
+footer .content {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.btn-subscribe {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #6181A2;
+    color: white;
+    padding: 4px 20px;
+    margin-top: -3px;
+}
+
+.subscribe-bar .email-address {
+    margin-right: 20px;
+}
 
 
