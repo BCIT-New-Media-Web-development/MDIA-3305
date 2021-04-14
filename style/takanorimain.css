@@ -6,7 +6,7 @@ a {
 	text-decoration: none;
 	color: black;
 }
-.section-heading h1 {
+.section-heading h2 {
 	font-size: 3rem;
 	margin: 15px;
 	padding: 20px 0;
@@ -138,7 +138,7 @@ box-sizing: border-box;
 }
 }
 
-  .demo a {
+.demo a {
 	position: absolute;
 	bottom: 20px;
 	left: 50%;
@@ -151,10 +151,10 @@ box-sizing: border-box;
 	letter-spacing: .1em;
 	text-decoration: none;
 	transition: opacity .3s;
-  }
-  .demo a:hover {
+}
+.demo a:hover {
 	opacity: .5;
-  }
+}
 
 /* Card */
 .card {
