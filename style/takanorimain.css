@@ -23,7 +23,13 @@ section {
 */
 /* Header */
 header {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 99;
 	background-color: transparent;
+	transition: 0.3s;
 }
 nav{
 	position: fixed;
