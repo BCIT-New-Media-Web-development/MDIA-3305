@@ -160,6 +160,7 @@ box-sizing: border-box;
 .card {
 	padding: 10px 15px;
 	border: none;
+	width: 30vw;
 }
 .card img {
 	height: 30vh;
@@ -169,6 +170,7 @@ box-sizing: border-box;
 @media (min-width: 576px) {
 	.card-deck {
 		display: flex;
+		padding-top: 10vh;
 	}
 }
 
