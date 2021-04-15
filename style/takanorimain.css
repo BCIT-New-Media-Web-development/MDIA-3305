@@ -88,6 +88,7 @@ nav{
 	letter-spacing: .1rem;
 	margin-top: 50px;
 	transition: .3s ease;
+	font-family: 'Josefin Sans', sans-serif;
 }
 .cta:hover {
 	color: #fff;
@@ -165,8 +166,9 @@ box-sizing: border-box;
 
 /* Card */
 
-.card-deck {
-
+.card-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 500;
 }
 .card {
 	padding: 10px 15px;
