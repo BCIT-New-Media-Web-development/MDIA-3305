@@ -94,6 +94,7 @@ nav{
 	color: #fff;
 	border-radius: 10px;
 	background-color: cadetblue;
+	font-weight: 700;
 }
   
 #arrow { background: url(https://picsum.photos/1200/800?image=901) center center / cover no-repeat;}
@@ -175,6 +176,11 @@ box-sizing: border-box;
 	border: none;
 	width: 30vw;
 }
+
+.card-body  {
+	padding-top: 5vh;
+}
+
 .card img {
 	height: 30vh;
 }
