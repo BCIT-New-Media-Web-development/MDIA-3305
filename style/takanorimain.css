@@ -45,6 +45,9 @@ nav{
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #0A1F49;
 }
+.logo {
+	width: auto;
+}
 /* Section 1 (Banner) */
 #section1 {
 	position: relative;
@@ -157,6 +160,10 @@ box-sizing: border-box;
 }
 
 /* Card */
+
+.card-deck {
+
+}
 .card {
 	padding: 10px 15px;
 	border: none;
@@ -171,6 +178,15 @@ box-sizing: border-box;
 	.card-deck {
 		display: flex;
 		padding-top: 10vh;
+		padding-bottom: 10vh;
+	}
+	.gallery-container {
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+	}
+	.contact {
+		padding-top: 10vh;
+		padding-bottom: 10vh;
 	}
 }
 
