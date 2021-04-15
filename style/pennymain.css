@@ -82,9 +82,9 @@ img {
 
 .btn-position {
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    background-color: #6181A2;
+    font-weight: 700!important;
+    font-size: 16px!important;
+    background-color: #6181A2!important;
     position: absolute;
     bottom: 179px;
     left: 102px;
@@ -120,8 +120,8 @@ contact
 .col-center {
     text-align: center;
     padding: 0 25px;
-    position: absolute;               /* 2 */
-    top: 50%;                         /* 3 */
+    position: absolute;               
+    top: 50%;                         
     transform: translate(0, -50%) }
     
 }
@@ -168,11 +168,11 @@ footer .content {
 
 .btn-subscribe {
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    background-color: #6181A2;
-    color: white;
-    padding: 4px 20px;
+    font-weight: 700!important;
+    font-size: 16px!important;
+    background-color: #6181A2!important;
+    color: white!important;
+    padding: 4px 20px!important;
     margin-top: -3px;
 }
 
